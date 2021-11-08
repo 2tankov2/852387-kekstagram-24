@@ -91,6 +91,6 @@ const createPhoto = (count) => (
 
 const gereratePotos = () => new Array(Range.MAX).fill(null).map((item, i) => createPhoto(i));
 
-console.log(isLengthRange('fgfjgj', 5));
-console.log(generateComments());
-console.log(gereratePotos());
+isLengthRange('fgfjgj', 5);
+generateComments();
+gereratePotos();
