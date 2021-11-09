@@ -40,8 +40,6 @@ const getList = new Array(Range.MAX).fill(null).map((item, i) => i + 1);
 // перемашанный список
 const shuffleListId = shuffleArray(getList.slice(0));
 
-console.log(shuffleListId);
-
 const shuffleListUrl = shuffleArray(getList.slice(0));
 const shuffleListIdComments = shuffleArray(getList.slice(0));
 
