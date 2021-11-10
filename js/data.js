@@ -74,4 +74,4 @@ const createPhoto = (count) => (
 
 const gereratePotos = () => new Array(Range.MAX).fill(null).map((item, i) => createPhoto(i));
 
-export {generateComments, gereratePotos};
+export {gereratePotos};
